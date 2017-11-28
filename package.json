@@ -1,0 +1,14 @@
+{
+  "name": "lekcja",
+  "version": "1.0.0",
+  "description": "npm lekcja",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass includes/sass/main.scss includes/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
